@@ -11,7 +11,7 @@
       .container-cont {
           color: white;
           background-color: $BannerBg;
-          width: 1900px;
+          width: auto;
           margin: 0 auto;
           justify-content: space-between;
           align-items: center;

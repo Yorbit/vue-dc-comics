@@ -4,7 +4,7 @@
             <img src="../assets/img/dc-logo.png" alt="">
             <nav>
                 <ul>
-                    <li v-for="(link, index) in menuHeaderLinks" :key="index">
+                    <li v-for="(link, index) in HeaderLinks" :key="index">
                         <a :href="link.url" :class="{'active': index == '1'}">
                             {{ link.text }}
                         </a>
@@ -54,7 +54,7 @@ export default {
     components: { HeaderContent },
     data: function(){
         return{
-            menuHeaderLinks: [
+            HeaderLinks: [
                 {
                     text: 'CHARACTERS',
                     url: '#',

@@ -29,6 +29,6 @@ export default {
 
 
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Segoe UI", "Open Sans", Helvetica, sans-serif;
 };
 </style>

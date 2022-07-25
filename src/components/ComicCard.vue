@@ -22,5 +22,17 @@ export default {
     .card {
         width: calc(100% / 6);
  
+        h5 {
+            color: white;
+            padding: 5px 15px 30px 10px;
+            text-transform: uppercase;
+        }
+
+        .card-cover {
+                padding: 0 10px;
+                object-fit: cover;
+                object-position: top;
+                height: 300px;
+        }
     }
 </style>

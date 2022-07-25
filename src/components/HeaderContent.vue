@@ -1,29 +1,25 @@
 <template>
       <div>
             <HeaderContentBanner/>
-
-            <div class="header-contet">
-
+            <div class="header-content">
                   <div class="header-container">
-
-                        <Card v-for="(book, index) in infoComics" :key="index"
+                        <ComicCard v-for="(book, index) in infoComics" :key="index"
                         :imageUrl="book.thumb"
-                        :titleBook="book.series"/>
+                        :titleComic="book.series"/>
 
                         <button class="btn-header">LOAD MORE</button>
-
                   </div>
             </div>
       </div>
-
 </template>
 
 <script>
 
 import HeaderContentBanner from './HeaderContentBanner.vue';
+import ComicCard from './ComicCard.vue';
 
 export default {
-  components: { HeaderContentBanner},
+  components: { HeaderContentBanner, ComicCard },
 
   data: function () {
     return {
@@ -106,19 +102,28 @@ export default {
 }
 </script>
 
-
-
-
 <style lang="scss" scoped>
   @import'../styles/colors.scss';
 
-      .container-cont {
-          color: white;
-          background-color: $BannerBg;
-          width: auto;
+      .header-content {
+      background-color: $BannerBg;
+      padding: 50px;
+      .header-container {
+        width: 1400px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        .btn-header{
+          cursor: pointer;
           margin: 0 auto;
-          justify-content: space-between;
-          align-items: center;
-          padding: 50px 250px;
+          color: white;
+          font-weight: bold;
+          font-size: 16px;
+          padding: 10px 40px;
+          text-transform: uppercase;
+          border-color: $ShopBg;
+          background-color: $ShopBg;
         }
+      }
+    }
 </style>

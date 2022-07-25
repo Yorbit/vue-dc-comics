@@ -170,25 +170,23 @@ export default {
         margin: 0 auto;
         display: flex;
         padding-bottom: 20px;
-        padding-top: 50px;
         .pos{
             position: absolute;
-            top: -90px;
+            top: -100px;
             right: 0;
         }
         ul{
-            margin-top: 30px;
-            margin-right: 30px;
+            margin-right: 50px;
             h2{
                 color: white;
                 margin: 10px 0px;
             }
             li{
                 list-style: none;
-                line-height: 25px;
-                font-size: 13px;
+                line-height: 23px;
+                font-size: 14px;
                 a{
-                    color: $ooterColorIcon;
+                    color: $ColorIcon;
                     text-decoration: none;
                 }
             }

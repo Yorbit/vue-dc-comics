@@ -24,7 +24,7 @@
 .container{
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10px;
+    padding: 20px 10px;
     margin: 0 auto;
     display: flex;
     width: 1400px;

@@ -17,23 +17,23 @@ export default {
         return{
             shopLinks: [
                 {
-                    text: 'Digital Comics',
+                    text: 'DIGITAL COMICS',
                     url: 'comics-digital-comics.png'
                 },
                 {
-                    text: 'DC Merchandise',
+                    text: 'DC MERCHANDISE',
                     url: 'comics-merchandise.png',
                 },
                 {
-                    text: 'Subscription',
+                    text: 'SUBSCRIPTION',
                     url: 'comics-subscriptions.png',
                 },
                 {
-                    text: 'Comic shop locator',
+                    text: 'COMIC SHOP LOCATOR',
                     url: 'comics-shop-locator.png',
                 },
                 {
-                    text: 'DC Power Visa',
+                    text: 'DC POWER VISA',
                     url: 'dc-power-visa.svg',
                 },
             ]
